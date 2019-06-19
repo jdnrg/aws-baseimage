@@ -10,7 +10,7 @@
       "source_ami_filter": {
         "filters": {
           "virtualization-type": "hvm",
-          "name": "ubuntu/images/*ubuntu-xenial-16.04-amd64-server-*",
+          "name": "ubuntu/images/*ubuntu-bionic-18.04-amd64-server-*",
           "root-device-type": "ebs"
         },
         "owners": [
@@ -20,7 +20,7 @@
       },
       "instance_type": "t3.micro",
       "ssh_username": "ubuntu",
-      "ami_name": "codemonauts-baseimage_{{ isotime \"2006-01-02_03-04\" }}",
+      "ami_name": "codemonauts-bionic-baseimage_{{ isotime \"2006-01-02_03-04\" }}",
       "ami_groups": [
         "all"
       ],
