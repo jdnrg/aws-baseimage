@@ -16,7 +16,7 @@ package "php7.2-xml";
 package "php7.2-zip";
 
 # Delete default configuration files
-file_array = ['/etc/nginx/sites-enables/default',
+file_array = ['/etc/nginx/sites-enabled/default',
               '/etc/nginx/sites-available/default']
 
 file_array.each do |this_file|
